@@ -3,7 +3,7 @@ peline {
     environment {
         strDockerTag = "${TODAY}_${BUILD_ID}"
         strDockerImage ="jdongin/cicd_guestbook:${strDockerTag}"
-    } 
+    }
 
     stages {
         stage('Checkout') {
