@@ -1,4 +1,4 @@
-peline {
+pipeline {
     agent any
     environment {
         strDockerTag = "${TODAY}_${BUILD_ID}"
